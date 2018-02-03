@@ -16,8 +16,8 @@ module.exports = {
      * Your GitHub application configuration
      */
     github: {
-      client_id: 'MY_APP_ID',
-      client_secret: 'MY_APP_SECRET',
+      client_id: '4a1016ce4ec6dc4f9542',
+      client_secret: '6d415efcdbb38840b2396c3562ff5dfc13ec07c8',
       scope: 'read:user gist'
     },
 
@@ -25,7 +25,7 @@ module.exports = {
      * MongoDB configuration
      * Passed directly to node-mongodb-native
      */
-    mongodb: 'mongodb://localhost:19000/injectify',
+    mongodb: 'mongodb://<dbuser>:<dbpassword>@ds123658.mlab.com:23658/injectify',
 
     /**
      * The port on which to host the website
