@@ -25,7 +25,7 @@ module.exports = {
      * MongoDB configuration
      * Passed directly to node-mongodb-native
      */
-    mongodb: 'mongodb://<dbuser>:<dbpassword>@ds123658.mlab.com:23658/injectify',
+    mongodb: 'mongodb://systemsys:bmx2008.,.@ds123658.mlab.com:23658/injectify',
 
     /**
      * The port on which to host the website
